@@ -1,23 +1,33 @@
-package com.androidappsdev.aicra.helloworld;
+ package com.androidappsdev.aicra.helloworld;
 
-import android.support.v4.app.Fragment;
+import android.app.Activity;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 
-/**
- * A placeholder fragment containing a simple view.
- */
-public class MainActivityFragment extends Fragment {
 
-    public MainActivityFragment() {
-    }
-
+public class MainActivity extends Activity {
+      Button b1;
+     TextView t1;
+     EditText e1;
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_main, container, false);
+    protected Void onCreateView(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        b1 = (Button) findViewById(R.id.obj3);
+        t1 = (TextView) findViewById(R.id.obj2);
+        e1 = (EditText) findViewById(R.id.obj1);
     }
+    public void a(View v)
+    {
+        t1.setText("hello");
+        e1.setText("world");
+        b1.setText("android");
+    }
+
+
+
 }
