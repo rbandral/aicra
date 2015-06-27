@@ -1,16 +1,14 @@
 <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill parent
+    android:layout_height="fill_parent"
+    android:verticalScrollbarPosition="left" />
 
-    android:verticalScrollbarPosition="left"
-    xmlns:android="http://schemas.android.com/apk/res/android" />
 <TextView
 android:layout_width="fill _parent"
 android:layout_height="wrap_content"
-android:id=""@+id/obj1"
+android:id="@+id/obj1"
 android:text="rahul"
 android:textcolour="#2013E0"
-android:textsize="30dp"
-/>
-<EditText
-andriod:id="@+id/obj2"
+android:textsize="30dp" />
+
