@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/obj1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the name" />
+
+    <EditText
+        android:id="@+id/obj2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="a-z" />
+
+    <Button
+        android:id="@+id/obj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:onClick="a"
+        android:text="Next" />
+
+    <ImageView
+        android:id="@+id/obj4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24" />
+
+</LinearLayout>
